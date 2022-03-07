@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/dk/easv/gui/App.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../easv/gui/App.fxml"));
         primaryStage.setTitle("Ultimate Tic Tac Toe - Diamonds and Trash");
         primaryStage.setScene(new Scene(root, 900, 700));
         primaryStage.setTitle("Diamonds vs Trash");

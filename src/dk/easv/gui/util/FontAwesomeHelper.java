@@ -20,7 +20,6 @@ public class FontAwesomeHelper {
     public static Text getFontAwesomeIconFromPlayerId(String playerId) throws RuntimeException {
         switch (playerId) {
             case "0":
-
                 return FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.DIAMOND);
             case "1":
                 return FontAwesomeIconFactory.get().createIcon(FontAwesomeIcon.TRASH);
